@@ -12,6 +12,11 @@ export default function PortfolioData() {
           alt="It's me :D"
           width={300}
           height={370}
+          style={{
+            border: "3px solid #fff",
+            borderRadius: "5px",
+            padding: "5px",
+          }}
         ></Image>
       </Container>
       <Container className={styles.rightPart}>

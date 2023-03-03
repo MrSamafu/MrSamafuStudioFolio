@@ -6,6 +6,7 @@ import Header from "@/components/header";
 import { Container } from "@mui/system";
 import PortfolioData from "./portfolioData";
 import PortfolioQuickView from "./portfolioQuickView";
+import PortfolioSkills from "./portfolioSkills";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Container className={styles.part}>
           <PortfolioQuickView />
           <PortfolioData />
+          <PortfolioSkills />
         </Container>
       </div>
     </div>
