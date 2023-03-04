@@ -1,3 +1,4 @@
+import { Link } from "@mui/material";
 import { Container } from "@mui/system";
 import Image from "next/image";
 import * as React from "react";
@@ -37,7 +38,10 @@ export default function PortfolioData() {
               <span className={styles.bold}>Nom:</span> Samson Flamme
             </p>
             <p className={[styles.text, styles.textList].join(" ")}>
-              <span className={styles.bold}>Téléphone:</span> +33 6 31 26 76 89
+              <span className={styles.bold}>Téléphone:</span>{" "}
+              <Link className={styles.link} href="tel:+33631267689">
+                +33 6 31 26 76 89
+              </Link>
             </p>
             <p className={[styles.text, styles.textList].join(" ")}>
               <span className={styles.bold}>Expérience:</span> +3 ans
@@ -59,7 +63,12 @@ export default function PortfolioData() {
             </p>
             <p className={[styles.text, styles.textList].join(" ")}>
               <span className={styles.bold}>Email:</span>{" "}
-              samson.flamme.pro@outlook.com
+              <Link
+                className={styles.link}
+                href="mailto:samson.flamme.pro@outlook.com"
+              >
+                samson.flamme.pro@outlook.com
+              </Link>
             </p>
           </Container>
         </Container>

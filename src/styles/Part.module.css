@@ -101,8 +101,17 @@
   box-shadow: 0px;
   transition: box-shadow 0.3s ease 0s;
   transition: -webkit-box-shadow 0.3s ease 0s;
+  text-align: center;
 }
 .skill:hover {
   -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.7);
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.7);
+}
+.link {
+  color: var(--info-light-color);
+  text-decoration: unset;
+}
+.link:hover {
+  color: var(--other-light-color);
+  text-decoration: underline;
 }

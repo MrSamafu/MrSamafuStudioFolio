@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Container } from "@mui/system";
 import styles from "../styles/Header.module.css";
-import { Button } from "@mui/material";
-import FacebookIcon from "@mui/icons-material/Facebook";
+import { Button, Link } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { styled } from "@mui/material/styles";
 
@@ -28,18 +28,22 @@ export default function Header() {
         <StyledButton variant="text">Contact</StyledButton>
       </Container>
       <Container className={styles.network}>
-        <FacebookIcon
-          sx={{
-            color: "#cccccc",
-            "&:hover": { color: "#19e3b1", cursor: "pointer" },
-          }}
-        />
-        <LinkedInIcon
-          sx={{
-            color: "#cccccc",
-            "&:hover": { color: "#19e3b1", cursor: "pointer" },
-          }}
-        />
+        <Link href="https://github.com/MrSamafu">
+          <GitHubIcon
+            sx={{
+              color: "#cccccc",
+              "&:hover": { color: "#19e3b1", cursor: "pointer" },
+            }}
+          />
+        </Link>
+        <Link href="https://www.linkedin.com/in/samson-flamme-3490b719a/">
+          <LinkedInIcon
+            sx={{
+              color: "#cccccc",
+              "&:hover": { color: "#19e3b1", cursor: "pointer" },
+            }}
+          />
+        </Link>
       </Container>
     </Container>
   );
