@@ -31,16 +31,16 @@ export default function Header() {
         <Link href="https://github.com/MrSamafu">
           <GitHubIcon
             sx={{
-              color: "#cccccc",
-              "&:hover": { color: "#19e3b1", cursor: "pointer" },
+              color: "#1b2229",
+              "&:hover": { color: "#b83c82", cursor: "pointer" },
             }}
           />
         </Link>
         <Link href="https://www.linkedin.com/in/samson-flamme-3490b719a/">
           <LinkedInIcon
             sx={{
-              color: "#cccccc",
-              "&:hover": { color: "#19e3b1", cursor: "pointer" },
+              color: "#1b2229",
+              "&:hover": { color: "#b83c82", cursor: "pointer" },
             }}
           />
         </Link>
