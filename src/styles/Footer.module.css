@@ -27,14 +27,8 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#222c37",endColorstr="#00cccc",GradientType=1);
 }
 .logo {
-  width: 25%;
+  width: 75%;
   display: flex;
-  align-items: center;
-}
-.menu {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 .network {
