@@ -4,9 +4,13 @@ import * as React from "react";
 import styles from "../styles/Part.module.css";
 
 export default function PortfolioQuickView() {
+  const homeBackground = {
+    backgrounImage: 'url("../../public/CodingPc.png")',
+    backgroundSize: "cover",
+  };
   return (
     <Container className={styles.main}>
-      <Container className={styles.home}>
+      <Container className={[styles.home, homeBackground]}>
         <Image
           src="/Moi 500x500.png"
           alt="It's me :D"
