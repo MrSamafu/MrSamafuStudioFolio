@@ -5,7 +5,7 @@ import styles from "../styles/Part.module.css";
 
 export default function PortfolioQuickView() {
   return (
-    <Container className={[styles.main, styles.homeBackground].join(" ")}>
+    <Container className={styles.main}>
       <Container className={styles.home}>
         <Image
           src="/Moi 500x500.png"
